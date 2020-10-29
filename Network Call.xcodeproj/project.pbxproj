@@ -15,6 +15,8 @@
 		3A80916025489DC3009689E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A80915E25489DC3009689E2 /* LaunchScreen.storyboard */; };
 		3A80916B25489DC3009689E2 /* Network_CallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A80916A25489DC3009689E2 /* Network_CallTests.swift */; };
 		3A80917625489DC3009689E2 /* Network_CallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A80917525489DC3009689E2 /* Network_CallUITests.swift */; };
+		3A8091872548A19E009689E2 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8091862548A19E009689E2 /* NetworkManager.swift */; };
+		3ACCCEFF2549E0A3000FB5FE /* myTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACCCEFE2549E0A3000FB5FE /* myTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		3A80917125489DC3009689E2 /* Network CallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Network CallUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A80917525489DC3009689E2 /* Network_CallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network_CallUITests.swift; sourceTree = "<group>"; };
 		3A80917725489DC3009689E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A8091862548A19E009689E2 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		3ACCCEFE2549E0A3000FB5FE /* myTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				3A80915C25489DC2009689E2 /* Assets.xcassets */,
 				3A80915E25489DC3009689E2 /* LaunchScreen.storyboard */,
 				3A80916125489DC3009689E2 /* Info.plist */,
+				3A8091862548A19E009689E2 /* NetworkManager.swift */,
+				3ACCCEFE2549E0A3000FB5FE /* myTableViewCell.swift */,
 			);
 			path = "Network Call";
 			sourceTree = "<group>";
@@ -258,6 +264,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A8091872548A19E009689E2 /* NetworkManager.swift in Sources */,
+				3ACCCEFF2549E0A3000FB5FE /* myTableViewCell.swift in Sources */,
 				3A80915825489DB3009689E2 /* ViewController.swift in Sources */,
 				3A80915425489DB3009689E2 /* AppDelegate.swift in Sources */,
 				3A80915625489DB3009689E2 /* SceneDelegate.swift in Sources */,
